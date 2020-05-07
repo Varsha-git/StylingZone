@@ -1,0 +1,177 @@
+body {
+  background-image: url("/images/bgnew pixel.png");
+}
+
+#container {
+  position: absolute;
+  width: 500px;
+  height: 800px;
+  margin: 100px;
+}
+
+#background {
+  position: absolute;
+}
+
+#model {
+  width: 250px;
+  height: 598px;
+  margin: 50px;
+  position: absolute;
+
+  background-image: url(/images/mainbody1.png);
+}
+
+#hairstyle {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  margin: 50px;
+}
+
+#dress {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  margin: 50px;
+}
+
+#jewel {
+  position: absolute;
+  width: 250px;
+  height: 599px;
+  margin: 50px;
+}
+
+.jewel1 {
+  position: absolute;
+  width: 250px;
+  height: 599px;
+  background-image: url(/images/jewellery1.png);
+}
+
+.jewel2 {
+  position: absolute;
+  width: 250px;
+  height: 599px;
+  background-image: url(/images/jewellery2.png);
+}
+
+.jewel3 {
+  position: absolute;
+  width: 250px;
+  height: 599px;
+  background-image: url(/images/jewellery3.png);
+}
+
+.jewel4 {
+  position: absolute;
+  width: 250px;
+  height: 599px;
+  background-image: url(/images/jewellery4.png);
+}
+
+.jewel5 {
+  position: absolute;
+  width: 250px;
+  height: 599px;
+  background-image: url(/images/jewellery5.png);
+}
+
+.jewel6 {
+  position: absolute;
+  width: 250px;
+  height: 599px;
+  background-image: url(/images/jewellery6.png);
+}
+
+.jewel7 {
+  position: absolute;
+  width: 250px;
+  height: 599px;
+  background-image: url(/images/jewellery7.png);
+}
+
+.jewel8 {
+  position: absolute;
+  width: 250px;
+  height: 599px;
+  background-image: url(/images/jewellery8.png);
+}
+
+.hairstyle1 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/hairstyle1.png);
+}
+
+.hairstyle2 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/hairstyle2.png);
+}
+
+.hairstyle3 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/hairstyle3.png);
+}
+
+.hairstyle4 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/hairstyle4.png);
+}
+
+.hairstyle5 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/hairstyle5.png);
+}
+
+.hairstyle6 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/hairstyle6.png);
+}
+
+.dress1 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/dress1.png);
+}
+
+.dress2 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/dress2.png);
+}
+
+.dress3 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/dress3.png);
+}
+
+.dress4 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/dress4.png);
+}
+
+.dress5 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/dress5.png);
+}
