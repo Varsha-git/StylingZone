@@ -1,23 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body {
     background-image: url(/images/bgnew\ pixel.png);
-    overflow: hidden;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+}
+
+#textprint #footer {
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+#myText {
+    margin-left: 100px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 20%;
+    background-color: salmon;
+    color: blanchedalmond;
+    width: 5em;
+    height: 2em;
+    font-size: 1em;
+}
+
+#btn {
+    border: 5px solid black;
+    border-radius: 20%;
+    font-size: 0.5em;
+    background-color: salmon;
+
+}
+
+label {
+    margin-left: 100px;
 }
 
 input {
-    margin-left: 400px;
     border-width: 20%;
+
 }
 
-p {
+form {
     font-size: 3em;
-    color: blueviolet;
+    font-family: 'Pacifico', cursive;
+
+}
+
+#textprint {
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    color: teal;
     font-weight: 500;
-    margin: 50px;
+    margin-left: 50px;
+}
+
+#print {
+    font-family: 'Pacifico', cursive;
+    color: rgb(0, 252, 231);
+    margin-left: 200px;
 }
 
 a {
-    font-size: 2em;
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
     color: black;
+    margin-left: 300px;
 }

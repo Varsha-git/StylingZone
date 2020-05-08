@@ -5,24 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Styling Zone</title>
     <link rel="stylesheet" href="front.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <script>
-    body;
-  </script>
 
   <body>
-    <p>
-      Hey Prograds ! Welcome to Fashion Zone... <br />
-      Please Enter Your Name...
-      <br />
-      <br />
-      <input type="text" id="input" width="30%" />
-      <br />
-      <br />
-
+    <p id="textprint">Hi Prograds ! Welcome to Fashion Zone... <br /></p>
+    <form>
+      <label> Please Enter your name : </label>
+      <input type="text" id="myText" />
+      <input type="button" onclick="myFunction()" value="Click" id="btn" />
+      <p id="print"></p>
+    </form>
+    <br />
+    <div id="footer">
       <a href="http://127.0.0.1:5500/index.html">
         Click to enter into fashion zone</a
       >
-    </p>
+    </div>
   </body>
+  <script src="linking.js"></script>
 </html>

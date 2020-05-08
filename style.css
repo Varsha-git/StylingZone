@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body {
   background-image: url("/images/bgnewpixel.png");
   background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 
 nav {
-  margin: 0px;
+  margin-left: 200px;
+  font-family: 'Pacifico', cursive;
+  color: teal;
+  font-size: 2em;
 }
 
 .container {
@@ -16,6 +23,26 @@ nav {
 
 .iconlist ul li {
   list-style: none;
+}
+
+@media screen and (max-width: 900px) {
+  .iconlist {
+    position: absolute;
+    left: 0;
+    width: 40%;
+    top: 8vh;
+    height: 92vh;
+  }
+}
+
+@media screen and (max-width : 900px) {
+  .container {
+    position: absolute;
+    right: 0;
+    width: 40%;
+    top: 8vh;
+    height: 92vh;
+  }
 }
 
 .iconlist {
@@ -36,12 +63,13 @@ nav {
   background-color: white;
   border-radius: 50%;
   text-align: center;
-  top: 30%;
-  left: 35%;
+  top: 40%;
+  left: 45%;
   width: 15em;
   height: 5em;
   border-radius: 50%;
   margin: 2px;
+  border: 5px solid hotpink;
 }
 
 .deg0 {
@@ -82,6 +110,7 @@ nav {
   height: 598px;
   margin: 50px;
   position: absolute;
+  border: 6px solid hotpink;
   background-image: url(/images/mainbody1.png);
 }
 
@@ -94,6 +123,7 @@ nav {
   width: 250px;
   height: 598px;
   margin: 50px;
+  border: 6px solid hotpink;
 }
 
 #dress {
@@ -101,6 +131,7 @@ nav {
   width: 250px;
   height: 598px;
   margin: 50px;
+  border: 6px solid hotpink;
 }
 
 #jewel {
@@ -108,6 +139,7 @@ nav {
   width: 250px;
   height: 599px;
   margin: 50px;
+  border: 6px solid hotpink;
 }
 
 #bag {
@@ -115,6 +147,7 @@ nav {
   width: 250px;
   height: 599px;
   margin: 50px;
+  border: 6px solid hotpink;
 
 }
 
@@ -124,7 +157,7 @@ nav {
   width: 250px;
   height: 599px;
   margin: 50px;
-
+  border: 6px solid hotpink;
 }
 
 
@@ -133,7 +166,7 @@ nav {
   width: 250px;
   height: 599px;
   margin: 50px;
-
+  border: 6px solid hotpink;
 }
 
 
