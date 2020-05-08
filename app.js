@@ -1,3 +1,12 @@
+function bigImg(x) {
+  x.style.height = "120px";
+  x.style.width = "100px";
+}
+
+function nrmlImg(x) {
+  x.style.height = "69px";
+  x.style.width = "55px";
+}
 var arr = { h: 0, d: 0, j: 0, bg: 0, sc: 0, sg: 0 };
 console.log(arr.h);
 console.log(arr.d);
@@ -174,10 +183,6 @@ function nextDress() {
     console.log(arr.d);
   } else if (arr.d === 23) {
     dress.setAttribute("class", "dress24");
-    arr.d++;
-    console.log(arr.d);
-  } else if (arr.d === 24) {
-    dress.setAttribute("class", "dress25");
     arr.d = 0;
     console.log(arr.d);
   }

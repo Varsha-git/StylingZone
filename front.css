@@ -11,7 +11,7 @@ body {
 }
 
 #myText {
-    margin-left: 100px;
+    margin-left: 50px;
     box-sizing: border-box;
     border: 3px solid black;
     border-radius: 20%;
@@ -31,7 +31,9 @@ body {
 }
 
 label {
-    margin-left: 100px;
+    margin-left: 250px;
+    font-weight: 800;
+    color: black;
 }
 
 input {
@@ -50,18 +52,25 @@ form {
     font-size: 3em;
     color: teal;
     font-weight: 500;
-    margin-left: 50px;
+    margin-left: 250px;
+    font-weight: 800;
 }
 
 #print {
     font-family: 'Pacifico', cursive;
-    color: rgb(0, 252, 231);
-    margin-left: 200px;
+    color: rgb(255, 65, 160);
+    margin-left: 250px;
+    background-color: rgba(28, 250, 239, 0.63);
+    border-radius: 50px;
+    width: 65%;
 }
 
 a {
     font-family: 'Pacifico', cursive;
     font-size: 3em;
     color: black;
-    margin-left: 300px;
+    margin-left: 350px;
+    font-weight: 1000;
+    background-color: rgba(255, 248, 220, 0.527);
+    border-radius: 40%;
 }

@@ -11,10 +11,9 @@
     />
   </head>
   <body>
-    <audio controls autoplay style="visibility: hidden;">
-      <source src="audio.mp3" type="audio/mp3" />
-    </audio>
-    <nav>Hello, You are in Fashion Zone. Try to implement things on model</nav>
+    <nav>
+      Hello, You have entered in the Fashion Zone. Let's do some styling!!
+    </nav>
     <div class="container">
       <div id="model"></div>
       <div id="dress"></div>
@@ -38,6 +37,8 @@
             class="deg60"
             src="/images/Icons/dressicon.png"
             onclick="nextDress()"
+            onmouseover="bigImg(this)"
+            onmouseout="nrmlImg(this)"
           />
         </li>
 
@@ -48,6 +49,8 @@
             class="deg120"
             src="/images/Icons/hairstyleicon.jpg"
             onclick="nextHair()"
+            onmouseover="bigImg(this)"
+            onmouseout="nrmlImg(this)"
           />
         </li>
         <li>
@@ -57,6 +60,8 @@
             class="deg180"
             src="/images/Icons/jewelleryicon.png"
             onclick="nextJewel()"
+            onmouseover="bigImg(this)"
+            onmouseout="nrmlImg(this)"
           />
         </li>
         <li>
@@ -66,6 +71,8 @@
             class="deg240"
             src="/images/Icons/bagicon.png"
             onclick="nextBag()"
+            onmouseover="bigImg(this)"
+            onmouseout="nrmlImg(this)"
           />
         </li>
         <li>
@@ -75,6 +82,8 @@
             class="deg300"
             src="/images/Icons/scarficon.png"
             onclick="nextScarf()"
+            onmouseover="bigImg(this)"
+            onmouseout="nrmlImg(this)"
           />
         </li>
         <li>
@@ -84,6 +93,8 @@
             class="deg360"
             src="/images/Icons/sunglassicon.png"
             onclick="nextSunglass()"
+            onmouseover="bigImg(this)"
+            onmouseout="nrmlImg(this)"
           />
         </li>
         <li>
@@ -93,11 +104,17 @@
             class="deg0"
             src="/images/Icons/screenshoticon.png"
             onclick="window.print()"
+            onmouseover="bigImg(this)"
+            onmouseout="nrmlImg(this)"
           />
         </li>
       </ul>
     </div>
+    <div>
+      <audio controls autoplay style="visibility: hidden;">
+        <source src="audio.mp3" type="audio/mp3" />
+      </audio>
+    </div>
   </body>
   <script src="app.js"></script>
-  <script src="linking.js"></script>
 </html>

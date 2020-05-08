@@ -5,20 +5,26 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 
+
 }
 
+
 nav {
-  margin-left: 200px;
+  margin-left: 10px;
   font-family: 'Pacifico', cursive;
-  color: teal;
-  font-size: 2em;
+  color: black;
+  background-color: rgba(255, 235, 205, 0.836);
+  font-size: 40px;
+  font-weight: 800;
+  top: 0px;
 }
 
 .container {
   position: absolute;
   width: 500px;
   height: 800px;
-  margin-left: 600px;
+  margin-left: 640px;
+  top: 28px;
 }
 
 .iconlist ul li {
@@ -46,13 +52,14 @@ nav {
 }
 
 .iconlist {
+  top: 20px;
   position: absolute;
   width: 10em;
   height: 20em;
   padding: 12em;
-  border: none;
   border-radius: 50%;
-  margin: 10em auto 10;
+  left: 50px;
+
 }
 
 
@@ -65,11 +72,11 @@ nav {
   text-align: center;
   top: 40%;
   left: 45%;
-  width: 15em;
-  height: 5em;
+  width: 55px;
+  height: 69px;
   border-radius: 50%;
   margin: 2px;
-  border: 5px solid hotpink;
+  border: 5px solid rgb(218, 2, 110);
 }
 
 .deg0 {
@@ -110,7 +117,8 @@ nav {
   height: 598px;
   margin: 50px;
   position: absolute;
-  border: 6px solid hotpink;
+  border: 6px solid rgb(218, 2, 110);
+  border-radius: 20%;
   background-image: url(/images/mainbody1.png);
 }
 
@@ -123,7 +131,7 @@ nav {
   width: 250px;
   height: 598px;
   margin: 50px;
-  border: 6px solid hotpink;
+  border: 6px solid rgb(218, 2, 110);
 }
 
 #dress {
@@ -131,7 +139,7 @@ nav {
   width: 250px;
   height: 598px;
   margin: 50px;
-  border: 6px solid hotpink;
+  border: 6px solid rgb(218, 2, 110);
 }
 
 #jewel {
@@ -139,7 +147,7 @@ nav {
   width: 250px;
   height: 599px;
   margin: 50px;
-  border: 6px solid hotpink;
+  border: 6px solid rgb(218, 2, 110);
 }
 
 #bag {
@@ -147,7 +155,7 @@ nav {
   width: 250px;
   height: 599px;
   margin: 50px;
-  border: 6px solid hotpink;
+  border: 6px solid rgb(218, 2, 110);
 
 }
 
@@ -157,7 +165,7 @@ nav {
   width: 250px;
   height: 599px;
   margin: 50px;
-  border: 6px solid hotpink;
+  border: 6px solid rgb(218, 2, 110);
 }
 
 
@@ -166,7 +174,7 @@ nav {
   width: 250px;
   height: 599px;
   margin: 50px;
-  border: 6px solid hotpink;
+  border: 6px solid rgb(218, 2, 110);
 }
 
 
@@ -500,6 +508,7 @@ nav {
   height: 598px;
   background-image: url(/images/Dress/dress18.png);
 }
+
 
 .bag1 {
   position: absolute;

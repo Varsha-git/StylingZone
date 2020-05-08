@@ -26,5 +26,11 @@
       >
     </div>
   </body>
-  <script src="linking.js"></script>
+  <script>
+    function myFunction() {
+      var text = document.getElementById("myText").value;
+      document.getElementById("print").innerHTML =
+        "Thank you " + "'" + text + "'" + "  for entering your name ";
+    }
+  </script>
 </html>
