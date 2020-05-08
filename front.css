@@ -1,0 +1,23 @@
+body {
+    background-image: url(/images/bgnew\ pixel.png);
+    overflow: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+input {
+    margin-left: 400px;
+    border-width: 20%;
+}
+
+p {
+    font-size: 3em;
+    color: blueviolet;
+    font-weight: 500;
+    margin: 50px;
+}
+
+a {
+    font-size: 2em;
+    color: black;
+}

@@ -1,12 +1,76 @@
 body {
-  background-image: url("/images/bgnew pixel.png");
+  background-image: url("/images/bgnewpixel.png");
+  background-repeat: no-repeat;
 }
 
-#container {
+nav {
+  margin: 0px;
+}
+
+.container {
   position: absolute;
   width: 500px;
   height: 800px;
-  margin: 100px;
+  margin-left: 600px;
+}
+
+.iconlist ul li {
+  list-style: none;
+}
+
+.iconlist {
+  position: absolute;
+  width: 10em;
+  height: 20em;
+  padding: 12em;
+  border: none;
+  border-radius: 50%;
+  margin: 10em auto 10;
+}
+
+
+.iconlist ul li input {
+
+  position: absolute;
+  display: inline-block;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  top: 30%;
+  left: 35%;
+  width: 15em;
+  height: 5em;
+  border-radius: 50%;
+  margin: 2px;
+}
+
+.deg0 {
+  transform: rotate(0deg);
+}
+
+.deg60 {
+  transform: rotate(60deg) translate(-10em) rotate(-60deg);
+}
+
+.deg120 {
+  transform: rotate(120deg) translate(-10em) rotate(-120deg);
+}
+
+.deg180 {
+  transform: rotate(180deg) translate(-10em) rotate(-180deg);
+}
+
+
+.deg240 {
+  transform: rotate(240deg) translate(-10em) rotate(-240deg);
+}
+
+.deg300 {
+  transform: rotate(300deg) translate(-10em) rotate(-300deg);
+}
+
+.deg360 {
+  transform: rotate(360deg) translate(-10em) rotate(-360deg);
 }
 
 #background {
@@ -18,8 +82,11 @@ body {
   height: 598px;
   margin: 50px;
   position: absolute;
-
   background-image: url(/images/mainbody1.png);
+}
+
+#icons {
+  width: 10%;
 }
 
 #hairstyle {
@@ -43,135 +110,546 @@ body {
   margin: 50px;
 }
 
+#bag {
+  position: absolute;
+  width: 250px;
+  height: 599px;
+  margin: 50px;
+
+}
+
+
+#scarf {
+  position: absolute;
+  width: 250px;
+  height: 599px;
+  margin: 50px;
+
+}
+
+
+#sunglass {
+  position: absolute;
+  width: 250px;
+  height: 599px;
+  margin: 50px;
+
+}
+
+
 .jewel1 {
   position: absolute;
   width: 250px;
   height: 599px;
-  background-image: url(/images/jewellery1.png);
+  background-image: url(/images/Jewellery/jewellery1.png);
 }
 
 .jewel2 {
   position: absolute;
   width: 250px;
   height: 599px;
-  background-image: url(/images/jewellery2.png);
+  background-image: url(/images/Jewellery/jewellery2.png);
 }
 
 .jewel3 {
   position: absolute;
   width: 250px;
   height: 599px;
-  background-image: url(/images/jewellery3.png);
+  background-image: url(/images/Jewellery/jewellery3.png);
 }
 
 .jewel4 {
   position: absolute;
   width: 250px;
   height: 599px;
-  background-image: url(/images/jewellery4.png);
+  background-image: url(/images/Jewellery/jewellery4.png);
 }
 
 .jewel5 {
   position: absolute;
   width: 250px;
   height: 599px;
-  background-image: url(/images/jewellery5.png);
+  background-image: url(/images/Jewellery/jewellery5.png);
 }
 
 .jewel6 {
   position: absolute;
   width: 250px;
   height: 599px;
-  background-image: url(/images/jewellery6.png);
+  background-image: url(/images/Jewellery/jewellery6.png);
 }
 
 .jewel7 {
   position: absolute;
   width: 250px;
   height: 599px;
-  background-image: url(/images/jewellery7.png);
+  background-image: url(/images/Jewellery/finaljewelery7.png);
 }
 
 .jewel8 {
   position: absolute;
   width: 250px;
   height: 599px;
-  background-image: url(/images/jewellery8.png);
+  background-image: url(/images/Jewellery/finaljewellery8.png);
 }
 
 .hairstyle1 {
   position: absolute;
   width: 250px;
   height: 598px;
-  background-image: url(/images/hairstyle1.png);
+  background-image: url(/images/Hairstyle/hairstyle1.png);
 }
 
 .hairstyle2 {
   position: absolute;
   width: 250px;
   height: 598px;
-  background-image: url(/images/hairstyle2.png);
+  background-image: url(/images/Hairstyle/hairstyle2.png);
 }
 
 .hairstyle3 {
   position: absolute;
   width: 250px;
   height: 598px;
-  background-image: url(/images/hairstyle3.png);
+  background-image: url(/images/Hairstyle/hairstyle3.png);
 }
 
 .hairstyle4 {
   position: absolute;
   width: 250px;
   height: 598px;
-  background-image: url(/images/hairstyle4.png);
+  background-image: url(/images/Hairstyle/hairstyle4.png);
 }
 
 .hairstyle5 {
   position: absolute;
   width: 250px;
   height: 598px;
-  background-image: url(/images/hairstyle5.png);
+  background-image: url(/images/Hairstyle/hairstyle5.png);
 }
 
 .hairstyle6 {
   position: absolute;
   width: 250px;
   height: 598px;
-  background-image: url(/images/hairstyle6.png);
+  background-image: url(/images/Hairstyle/hairstyle6.png);
+}
+
+.hairstyle7 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Hairstyle/hairstyle7.png);
+}
+
+.hairstyle8 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Hairstyle/hairstyle8.png);
+}
+
+.hairstyle9 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Hairstyle/hairstyle9.png);
+}
+
+.hairstyle10 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Hairstyle/hairstyle10.png);
+}
+
+.hairstyle11 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Hairstyle/hairstyle11.png);
+}
+
+.hairstyle12 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Hairstyle/hairstyle12.png);
+}
+
+.hairstyle13 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Hairstyle/hairstyle13.png);
+}
+
+
+.hairstyle13 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Hairstyle/hairstyle13.png);
 }
 
 .dress1 {
   position: absolute;
   width: 250px;
   height: 598px;
-  background-image: url(/images/dress1.png);
+  background-image: url(/images/Dress/bridalwear1.png);
 }
 
 .dress2 {
   position: absolute;
   width: 250px;
   height: 598px;
-  background-image: url(/images/dress2.png);
+  background-image: url(/images/Dress/bridalwear2.png);
 }
 
 .dress3 {
   position: absolute;
   width: 250px;
   height: 598px;
-  background-image: url(/images/dress3.png);
+  background-image: url(/images/Dress/bridalwear3.png);
 }
 
 .dress4 {
   position: absolute;
   width: 250px;
   height: 598px;
-  background-image: url(/images/dress4.png);
+  background-image: url(/images/Dress/bridalwear4.png);
 }
 
 .dress5 {
   position: absolute;
   width: 250px;
   height: 598px;
-  background-image: url(/images/dress5.png);
+  background-image: url(/images/Dress/bridalwear5.png);
+}
+
+.dress6 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Dress/bridalwear6.png);
+}
+
+.dress7 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Dress/bridalwear7.png);
+}
+
+.dress8 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Dress/dress1.png);
+}
+
+.dress9 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Dress/dress2.png);
+}
+
+.dress10 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Dress/dress3.png);
+}
+
+.dress11 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Dress/dress4.png);
+}
+
+.dress12 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Dress/dress5.png);
+}
+
+.dress13 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Dress/dress6.png);
+}
+
+.dress14 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Dress/dress7.png);
+}
+
+.dress15 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Dress/dress8.png);
+}
+
+.dress15 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Dress/dress9.png);
+}
+
+.dress16 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Dress/dress10.png);
+}
+
+.dress17 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Dress/dress11.png);
+}
+
+.dress18 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Dress/dress12.png);
+}
+
+.dress19 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Dress/dress13.png);
+}
+
+.dress20 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Dress/dress14.png);
+}
+
+.dress21 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Dress/dress15.png);
+}
+
+
+.dress22 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Dress/dress16.png);
+}
+
+.dress23 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Dress/dress17.png);
+}
+
+.dress24 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Dress/dress18.png);
+}
+
+.bag1 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Bag/bag1.png);
+
+}
+
+.bag2 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Bag/bag3.png);
+
+}
+
+.bag3 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Bag/bag4.png);
+
+}
+
+.bag4 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Bag/bag5.png);
+
+}
+
+.bag5 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Bag/bag6.png);
+
+}
+
+.bag6 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Bag/bag7.png);
+
+}
+
+.bag7 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Bag/bag8.png);
+
+}
+
+.bag8 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Bag/bag9.png);
+
+}
+
+
+
+.scarf0 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Scarf/scarf1.png);
+
+}
+
+.scarf1 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Scarf/scarf2.png);
+
+}
+
+.scarf2 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Scarf/scarf3.png);
+
+}
+
+.scarf3 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Scarf/scarf4.png);
+
+}
+
+.scarf4 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Scarf/scarf5.png);
+
+}
+
+.sunglass1 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Sunglasses/sunglass1.png);
+
+}
+
+.sunglass2 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Sunglasses/sunglass2.png);
+
+}
+
+.sunglass3 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Sunglasses/sunglass3.png);
+
+}
+
+.sunglass4 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Sunglasses/sunglass4.png);
+
+}
+
+.sunglass5 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Sunglasses/sunglass5.png);
+
+}
+
+.sunglass6 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Sunglasses/sunglass6.png);
+
+}
+
+.sunglass7 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Sunglasses/sunglass7.png);
+
+}
+
+.sunglass8 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Sunglasses/sunglass8.png);
+
+}
+
+.sunglass9 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Sunglasses/sunglass9.png);
+
+}
+
+.sunglass10 {
+  position: absolute;
+  width: 250px;
+  height: 598px;
+  background-image: url(/images/Sunglasses/sunglass10.png);
+
 }

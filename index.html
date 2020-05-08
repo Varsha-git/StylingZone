@@ -7,17 +7,88 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav><h1>Hey Prograds!!!</h1></nav>
-    <div id="container">
-      <div id="background">
-        <div id="model"></div>
-        <div id="dress"></div>
-        <div id="jewel"></div>
-        <div id="hairstyle"></div>
-      </div>
-      <button onclick="nextDress()">Next Dress</button>
-      <button onclick="nextHair()">Next Hair</button>
-      <button onclick="nextJewel()">Next Jewellery</button>
+    <nav></nav>
+    <div class="container">
+      <div id="model"></div>
+      <div id="dress"></div>
+      <div id="jewel"></div>
+      <div id="hairstyle"></div>
+      <div id="bag"></div>
+      <div id="belt"></div>
+      <div id="bridal"></div>
+      <div id="scarf"></div>
+      <div id="skirt"></div>
+      <div id="sunglass"></div>
+      <div id="top"></div>
+    </div>
+    <div class="iconlist">
+      <ul id="list">
+        <li>
+          <input
+            type="image"
+            alt="Dress"
+            id="icons"
+            class="deg60"
+            src="/images/Icons/dressicon.png"
+            onclick="nextDress()"
+          />
+        </li>
+
+        <li>
+          <input
+            type="image"
+            id="icons"
+            class="deg120"
+            src="/images/Icons/hairstyleicon.jpg"
+            onclick="nextHair()"
+          />
+        </li>
+        <li>
+          <input
+            type="image"
+            id="icons"
+            class="deg180"
+            src="/images/Icons/jewelleryicon.png"
+            onclick="nextJewel()"
+          />
+        </li>
+        <li>
+          <input
+            type="image"
+            id="icons"
+            class="deg240"
+            src="/images/Icons/bagicon.png"
+            onclick="nextBag()"
+          />
+        </li>
+        <li>
+          <input
+            type="image"
+            id="icons"
+            class="deg300"
+            src="/images/Icons/scarficon.png"
+            onclick="nextScarf()"
+          />
+        </li>
+        <li>
+          <input
+            type="image"
+            id="icons"
+            class="deg360"
+            src="/images/Icons/sunglassicon.png"
+            onclick="nextSunglass()"
+          />
+        </li>
+        <li>
+          <input
+            type="image"
+            id="icons"
+            class="deg0"
+            src="/images/Icons/screenshoticon.png"
+            onclick="window.print()"
+          />
+        </li>
+      </ul>
     </div>
   </body>
   <script src="app.js"></script>
