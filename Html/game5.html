@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LEVEL-1</title>
-    <link rel="stylesheet" href="second.css" />
-    <link rel="stylesheet" href="game1.css" />
+    <title>FINAL LEVEL</title>
+    <link rel="stylesheet" href="/cssFiles/second.css" />
+    <link rel="stylesheet" href="/cssFiles/game1.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
       rel="stylesheet"
@@ -13,7 +13,7 @@
   </head>
   <body>
     <nav id="nav1">
-      Welcome To Game Zone.Hey!! You Have Entered Level 1. Make Twins !!
+      Classic !!! You Have Entered In Final Level 5. Make Twins.
     </nav>
     <div class="container">
       <div id="model"></div>
@@ -59,6 +59,7 @@
             type="image"
             id="icons"
             class="deg180"
+            onclick="nextJewel()"
             src="/images/Icons/jewelleryicon.png"
             onmouseover="bigImg(this)"
             onmouseout="nrmlImg(this)"
@@ -69,6 +70,7 @@
             type="image"
             id="bagicons"
             class="deg240"
+            onclick="nextBag()"
             src="/images/Icons/bagicon.png"
             onmouseover="bigImg(this)"
             onmouseout="nrmlImg(this)"
@@ -79,6 +81,7 @@
             type="image"
             id="icons"
             class="deg300"
+            onclick="nextScarf()"
             src="/images/Icons/scarficon.png"
             onmouseover="bigImg(this)"
             onmouseout="nrmlImg(this)"
@@ -89,6 +92,7 @@
             type="image"
             id="icons"
             class="deg360"
+            onclick="nextSunglass()"
             src="/images/Icons/sunglassicon.png"
             onmouseover="bigImg(this)"
             onmouseout="nrmlImg(this)"
@@ -108,24 +112,18 @@
       </ul>
     </div>
     <div>
-      <img src="/images/Looks/level1.png" />
+      <img src="/images/Looks/level5.png" />
     </div>
     <div id="compbtn">
       <input
         type="button"
         value="Click to get result"
-        onclick="compareFunction1()"
+        onclick="compareFunction5()"
       />
-      <a
-        id="nextLevel"
-        href="http://127.0.0.1:5500/game2.html"
-        style="visibility: hidden;"
-        >Click to Enter Next Level
-      </a>
     </div>
     <div>
-      <p id="level1"></p>
+      <p id="level5"></p>
     </div>
   </body>
-  <script src="app.js"></script>
+  <script src="/app.js"></script>
 </html>
