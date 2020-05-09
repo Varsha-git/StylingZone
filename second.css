@@ -1,22 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 body {
   background-image: url("/images/bgnewpixel.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+}
 
+a {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  font-weight: 500;
+  background-color: wheat;
+  color: teal;
+  border-radius: 30%;
 
 }
 
-
 nav {
   margin-left: 10px;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   color: black;
   background-color: rgba(255, 235, 205, 0.836);
   font-size: 40px;
   font-weight: 800;
   top: 0px;
+  max-width: fit-content;
+  border-radius: 20%;
 }
 
 .container {
@@ -41,7 +49,7 @@ nav {
   }
 }
 
-@media screen and (max-width : 900px) {
+@media screen and (max-width: 900px) {
   .container {
     position: absolute;
     right: 0;
@@ -59,12 +67,9 @@ nav {
   padding: 12em;
   border-radius: 50%;
   left: 50px;
-
 }
 
-
 .iconlist ul li input {
-
   position: absolute;
   display: inline-block;
   background-color: white;
@@ -94,7 +99,6 @@ nav {
 .deg180 {
   transform: rotate(180deg) translate(-10em) rotate(-180deg);
 }
-
 
 .deg240 {
   transform: rotate(240deg) translate(-10em) rotate(-240deg);
@@ -156,9 +160,7 @@ nav {
   height: 599px;
   margin: 50px;
   border: 6px solid rgb(218, 2, 110);
-
 }
-
 
 #scarf {
   position: absolute;
@@ -168,7 +170,6 @@ nav {
   border: 6px solid rgb(218, 2, 110);
 }
 
-
 #sunglass {
   position: absolute;
   width: 250px;
@@ -176,7 +177,6 @@ nav {
   margin: 50px;
   border: 6px solid rgb(218, 2, 110);
 }
-
 
 .jewel1 {
   position: absolute;
@@ -324,7 +324,6 @@ nav {
   height: 598px;
   background-image: url(/images/Hairstyle/hairstyle13.png);
 }
-
 
 .hairstyle13 {
   position: absolute;
@@ -487,7 +486,6 @@ nav {
   background-image: url(/images/Dress/dress15.png);
 }
 
-
 .dress22 {
   position: absolute;
   width: 250px;
@@ -509,13 +507,11 @@ nav {
   background-image: url(/images/Dress/dress18.png);
 }
 
-
 .bag1 {
   position: absolute;
   width: 250px;
   height: 598px;
   background-image: url(/images/Bag/bag1.png);
-
 }
 
 .bag2 {
@@ -523,7 +519,6 @@ nav {
   width: 250px;
   height: 598px;
   background-image: url(/images/Bag/bag3.png);
-
 }
 
 .bag3 {
@@ -531,7 +526,6 @@ nav {
   width: 250px;
   height: 598px;
   background-image: url(/images/Bag/bag4.png);
-
 }
 
 .bag4 {
@@ -539,7 +533,6 @@ nav {
   width: 250px;
   height: 598px;
   background-image: url(/images/Bag/bag5.png);
-
 }
 
 .bag5 {
@@ -547,7 +540,6 @@ nav {
   width: 250px;
   height: 598px;
   background-image: url(/images/Bag/bag6.png);
-
 }
 
 .bag6 {
@@ -555,7 +547,6 @@ nav {
   width: 250px;
   height: 598px;
   background-image: url(/images/Bag/bag7.png);
-
 }
 
 .bag7 {
@@ -563,7 +554,6 @@ nav {
   width: 250px;
   height: 598px;
   background-image: url(/images/Bag/bag8.png);
-
 }
 
 .bag8 {
@@ -571,17 +561,13 @@ nav {
   width: 250px;
   height: 598px;
   background-image: url(/images/Bag/bag9.png);
-
 }
-
-
 
 .scarf0 {
   position: absolute;
   width: 250px;
   height: 598px;
   background-image: url(/images/Scarf/scarf1.png);
-
 }
 
 .scarf1 {
@@ -589,7 +575,6 @@ nav {
   width: 250px;
   height: 598px;
   background-image: url(/images/Scarf/scarf2.png);
-
 }
 
 .scarf2 {
@@ -597,7 +582,6 @@ nav {
   width: 250px;
   height: 598px;
   background-image: url(/images/Scarf/scarf3.png);
-
 }
 
 .scarf3 {
@@ -605,7 +589,6 @@ nav {
   width: 250px;
   height: 598px;
   background-image: url(/images/Scarf/scarf4.png);
-
 }
 
 .scarf4 {
@@ -613,7 +596,6 @@ nav {
   width: 250px;
   height: 598px;
   background-image: url(/images/Scarf/scarf5.png);
-
 }
 
 .sunglass1 {
@@ -621,7 +603,6 @@ nav {
   width: 250px;
   height: 598px;
   background-image: url(/images/Sunglasses/sunglass1.png);
-
 }
 
 .sunglass2 {
@@ -629,7 +610,6 @@ nav {
   width: 250px;
   height: 598px;
   background-image: url(/images/Sunglasses/sunglass2.png);
-
 }
 
 .sunglass3 {
@@ -637,7 +617,6 @@ nav {
   width: 250px;
   height: 598px;
   background-image: url(/images/Sunglasses/sunglass3.png);
-
 }
 
 .sunglass4 {
@@ -645,7 +624,6 @@ nav {
   width: 250px;
   height: 598px;
   background-image: url(/images/Sunglasses/sunglass4.png);
-
 }
 
 .sunglass5 {
@@ -653,7 +631,6 @@ nav {
   width: 250px;
   height: 598px;
   background-image: url(/images/Sunglasses/sunglass5.png);
-
 }
 
 .sunglass6 {
@@ -661,7 +638,6 @@ nav {
   width: 250px;
   height: 598px;
   background-image: url(/images/Sunglasses/sunglass6.png);
-
 }
 
 .sunglass7 {
@@ -669,7 +645,6 @@ nav {
   width: 250px;
   height: 598px;
   background-image: url(/images/Sunglasses/sunglass7.png);
-
 }
 
 .sunglass8 {
@@ -677,7 +652,6 @@ nav {
   width: 250px;
   height: 598px;
   background-image: url(/images/Sunglasses/sunglass8.png);
-
 }
 
 .sunglass9 {
@@ -685,7 +659,6 @@ nav {
   width: 250px;
   height: 598px;
   background-image: url(/images/Sunglasses/sunglass9.png);
-
 }
 
 .sunglass10 {
@@ -693,5 +666,4 @@ nav {
   width: 250px;
   height: 598px;
   background-image: url(/images/Sunglasses/sunglass10.png);
-
 }

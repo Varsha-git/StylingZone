@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DRESS-UP !!!</title>
+    <link rel="stylesheet" href="second.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      Hello, You have entered in the Fashion Zone. Let's do some styling and
+      click photos!!
+    </nav>
+    <div class="container">
+      <div id="model"></div>
+      <div id="dress"></div>
+      <div id="jewel"></div>
+      <div id="hairstyle"></div>
+      <div id="bag"></div>
+      <div id="belt"></div>
+      <div id="bridal"></div>
+      <div id="scarf"></div>
+      <div id="skirt"></div>
+      <div id="sunglass"></div>
+      <div id="top"></div>
+    </div>
+    <div class="iconlist">
+      <ul id="list">
+        <li>
+          <input
+            type="image"
+            alt="Dress"
+            id="icons"
+            class="deg60"
+            src="/images/Icons/dressicon.png"
+            onclick="nextDress()"
+            onmouseover="bigImg(this)"
+            onmouseout="nrmlImg(this)"
+          />
+        </li>
+
+        <li>
+          <input
+            type="image"
+            id="icons"
+            class="deg120"
+            src="/images/Icons/hairstyleicon.jpg"
+            onclick="nextHair()"
+            onmouseover="bigImg(this)"
+            onmouseout="nrmlImg(this)"
+          />
+        </li>
+        <li>
+          <input
+            type="image"
+            id="icons"
+            class="deg180"
+            src="/images/Icons/jewelleryicon.png"
+            onclick="nextJewel()"
+            onmouseover="bigImg(this)"
+            onmouseout="nrmlImg(this)"
+          />
+        </li>
+        <li>
+          <input
+            type="image"
+            id="icons"
+            class="deg240"
+            src="/images/Icons/bagicon.png"
+            onclick="nextBag()"
+            onmouseover="bigImg(this)"
+            onmouseout="nrmlImg(this)"
+          />
+        </li>
+        <li>
+          <input
+            type="image"
+            id="icons"
+            class="deg300"
+            src="/images/Icons/scarficon.png"
+            onclick="nextScarf()"
+            onmouseover="bigImg(this)"
+            onmouseout="nrmlImg(this)"
+          />
+        </li>
+        <li>
+          <input
+            type="image"
+            id="icons"
+            class="deg360"
+            src="/images/Icons/sunglassicon.png"
+            onclick="nextSunglass()"
+            onmouseover="bigImg(this)"
+            onmouseout="nrmlImg(this)"
+          />
+        </li>
+        <li>
+          <input
+            type="image"
+            id="icons"
+            class="deg0"
+            src="/images/Icons/screenshoticon.png"
+            onclick="window.print()"
+            onmouseover="bigImg(this)"
+            onmouseout="nrmlImg(this)"
+          />
+        </li>
+      </ul>
+    </div>
+    <div>
+      <a href="http://127.0.0.1:5500/game1.html">Click to Enter Game Zone. </a>
+    </div>
+    <div>
+      <audio controls autoplay style="visibility: hidden;">
+        <source src="audio.mp3" type="audio/mp3" />
+      </audio>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>

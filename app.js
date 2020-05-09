@@ -15,6 +15,79 @@ console.log(arr.bg);
 console.log(arr.sc);
 console.log(arr.sg);
 
+var d1 = 0,
+  h1 = 0;
+function compareFunction1() {
+  if (arr.d === 6 && arr.h === 2) {
+    document.getElementById("level1").innerHTML = "Awesome!! They are Twins  ";
+    document.getElementById("nextLevel").style.visibility = "visible";
+    return true;
+  } else {
+    document.getElementById("level1").innerHTML =
+      "Oops! They are cousin. Try Again ";
+  }
+}
+
+function compareFunction2() {
+  if (arr.d === 20 && arr.h === 12 && arr.sg === 8) {
+    document.getElementById("level2").innerHTML =
+      "You are Really Amazing!!! They are Twins. ";
+    document.getElementById("nextLevel").style.visibility = "visible";
+    return true;
+  } else {
+    document.getElementById("level2").innerHTML =
+      "Oops!! You Made Them Sister. Try Again.";
+  }
+}
+
+function compareFunction3() {
+  if (arr.d === 0 && arr.h === 0 && arr.sg === 9 && arr.j === 7) {
+    document.getElementById("level3").innerHTML =
+      "Ohhooo! You Are Too Good. They are Twins. ";
+    document.getElementById("nextLevel").style.visibility = "visible";
+    return true;
+  } else {
+    document.getElementById("level3").innerHTML =
+      "Sorry. You Made Them Siblings. Try Again. ";
+  }
+}
+
+function compareFunction4() {
+  if (
+    arr.d === 3 &&
+    arr.h === 7 &&
+    arr.sg === 7 &&
+    arr.j === 2 &&
+    arr.bg === 4
+  ) {
+    document.getElementById("level4").innerHTML =
+      "Hoo Yaaa !! You are Fabulous. They are Twins.  ";
+    document.getElementById("nextLevel").style.visibility = "visible";
+    return true;
+  } else {
+    document.getElementById("level4").innerHTML =
+      "Sorry.. You made Them Friends. ";
+  }
+}
+
+function compareFunction5() {
+  if (
+    arr.d === 11 &&
+    arr.h === 4 &&
+    arr.sg === 6 &&
+    arr.j === 3 &&
+    arr.bg === 5 &&
+    arr.sc === 3
+  ) {
+    document.getElementById("level5").innerHTML =
+      "Awesome !!! You are Tremendous... They are Twins. ";
+    return true;
+  } else {
+    document.getElementById("level5").innerHTML =
+      "Oops! You made Them Best Friends. ";
+  }
+}
+
 //var name = prompt("Please enter your name ...");
 //document.write("Hello " + name + "  Lets play... ");
 

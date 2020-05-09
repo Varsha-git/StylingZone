@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+#nav2 {
+    width: 55%;
+    font-size: 2em;
+}
+
+div img {
+    margin-left: 1000px;
+    margin-top: 2px;
+}
+
+.container {
+    top: 40px;
+    margin-top: -19px;
+}
+
+.iconlist {
+    top: 0px;
+}
+
+#compbtn input {
+    margin-top: 1px;
+    font-family: 'Pacifico', cursive;
+    margin-left: 20px;
+    border-radius: 30%;
+    font-size: 2em;
+    background-color: greenyellow;
+    border: 2px solid;
+}
+
+div p {
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    background-color: darkseagreen;
+    width: 30%;
+    margin-left: 50px;
+}
+
+a {
+    margin-left: 10px;
+    bottom: 100px;
+    font-weight: 800;
+    font-size: 2em;
+    color: darkred;
+    background-color: darksalmon;
+}
