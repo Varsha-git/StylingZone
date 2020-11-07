@@ -1,4 +1,5 @@
 # StylingZone
-I created my first project with HTML5,CSS3,JAVASCRIPT. 
-This is a game for kids specially girls. Kids can style model by trying dresses and accessories.
-Kids can play twins game.There are 5 level also to win.
+ The project aimed at developing styling and photo shoot zone for kids where they can dress up the model with different dress and accesories like sunglass, 
+scarf, different dress, different hair styles and can take photo of their different combination of styles.
+Another part of it was simple and adorable game for kids where they to pair the model with all the same styled manner as given to match, if they dress up with all same
+dress and accessories and dress and all then they pop with next level. Every  next level consist of incresed one step in combaination match.
